@@ -1,8 +1,8 @@
 ## Package Status
 
-| Bintray | Windows | Linux & macOS |
+| Bintray | Windows | Linux |
 |:--------:|:---------:|:-----------------:|
-|BINTRAY_BADGE_URL|APPVEYOR_BADGE_URL|TRAVIS_BADGE_URL|
+| [ ![Bintray](https://api.bintray.com/packages/konijnendijk/public-conan/liblinear:Konijnendijk/images/download.svg) ](https://bintray.com/konijnendijk/public-conan/liblinear:Konijnendijk/2.20:stable) | [ ![Appveyor branch](https://ci.appveyor.com/api/projects/status/github/Konijnendijk/conan-liblinear?branch=stable%2F2.20&svg=true)](https://ci.appveyor.com/project/Konijnendijk/conan-liblinear) | [![Travis branch](https://travis-ci.org/Konijnendijk/conan-liblinear.svg?branch=stable/2.20)](https://travis-ci.org/Konijnendijk/conan-liblinear) |
 
 ## Conan.io Information
 

@@ -15,6 +15,11 @@ class TestPackageConan(ConanFile):
         cmake.configure()
         cmake.build()
 
+    def imports(self):
+        self.copy("*.a", "", "lib")
+        self.copy("*.so*", "", "lib")
+        self.copy("*.dll*", "", "bin")
+
     def test(self):
         with tools.environment_append(RunEnvironment(self).vars):
             bin_path = os.path.join("bin", "test_package")
